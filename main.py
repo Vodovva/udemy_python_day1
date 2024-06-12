@@ -36,11 +36,11 @@
 
 
 
-# # print("What is your name?")
+# print("What is your name?")
 
-# # print("Hello " + input("What is your name?"))
+# print("Hello " + input("What is your name?"))
 
-# # making notes
+# #making notes
 
 # #❌
 # print(input("What is your name?"))
@@ -85,15 +85,15 @@
 # name = input("What is your name?")
 # print(name)
 
-name = "Valerie"
-print(name)
+# name = "Valerie"
+# print(name)
 
-name = "Apollo"
-print(name)
+# name = "Apollo"
+# print(name)
 
-name = input("What is your name?")
-length = ( len(name))
-print(length)
+# name = input("What is your name?")
+# length = ( len(name))
+# print(length)
 
 # Lesson 4
 
@@ -114,16 +114,50 @@ print(length)
 # World
 
 # There are two variables, a and b from input
-a = input()
-b = input()
+# a = input()
+# b = input()
 # 🚨 Don't change the code above ☝️
 ####################################
 # Write your code below this line 👇
-c = a
-a = b
-b = c
+# c = a
+# a = b
+# b = c
 
 
 # 🚨 Don't change the code below 👇
-print("a: " + a)
-print("b: " + b)
+# print("a: " + a)
+# print("b: " + b)
+
+
+# user_name = input('What is your name?')
+
+
+
+
+# Final day1 project
+#1. Create a greeting for your program.
+
+#2. Ask the user for the city that they grew up in.
+
+#3. Ask the user for the name of a pet.
+
+#4. Combine the name of their city and pet and show them their band name.
+
+#5. Make sure the input cursor shows on a new line:
+
+# Solution: https://replit.com/@appbrewery/band-name-generator-end
+
+# 1. Create a greeting for your program.
+print("Welcome to the Band Name Generator.")
+
+# 2. Ask the user for the city that they grew up in.
+city = input("What's the name of the city you grew up in?\n")
+
+# 3. Ask the user for the name of a pet.
+pet = input("What's your pet's name?\n")
+
+# 4. Combine the name of their city and pet and show them their band name.
+band_name = city + " " + pet
+print("Your band name could be " + band_name)
+
+# 5. Make sure the input cursor shows on a new line (handled by \n in input prompts).
